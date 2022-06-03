@@ -5,48 +5,47 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>HTML для начинающих</title>
 </head>
 <body>
-<table cellspacing = "22">
-<tr>
-    <td>
-        <img src="https://www.meme-arsenal.com/memes/357571e032fc9367d93b9ac1fffd792e.jpg" alt="Тоже хочу шоколадку">
-
-    </td>
-    <td>
+<div class="container">
+    <div class="info">
+        <img class='avatar' src="https://www.meme-arsenal.com/memes/357571e032fc9367d93b9ac1fffd792e.jpg"
+             alt="Тоже хочу шоколадку">
         <h1>Накал Ахинеи</h1>
-<p> <em>Умственно <strong>Отсталый</strong>  программист</em></p>
-<p>Люблю кушать шоколадки, и плавать</p>
-    </td>
-</tr>
-</table>
-<hr>
+        <p>Умственно <strong>отсталый</strong> программист</p>
+        <p>Люблю кушать шоколадки, и плавать</p>
 
-<h2>Мои социальные сети</h2>
-<ul>
-    <li type="square"><a href="https://vk.com/nakalahinei" target="_blank">вк</a></li>
-    <li><a href="https://55.img.avito.st/640x480/1861456155.jpg" target="_blank">телега</a></li>
-</ul>
-<hr>
-<h2>Мои хобби</h2>
-<ol>
-    <li>Плаванье</li>
-    <li>еда</li>
-</ol>
-<hr>
+    </div>
+    <hr>
+    <div class="social">
+        <h2>Мои социальные сети</h2>
+        <ul>
+            <li type="square"><a href="https://vk.com/nakalahinei" target="_blank">вк</a></li>
+            <li><a href="https://55.img.avito.st/640x480/1861456155.jpg" target="_blank">телега</a></li>
+        </ul>
+    </div>
 
-<h2>Опыт работы</h2>
+    <hr>
+    <h2>Мои хобби</h2>
+    <ol>
+        <li>Плаванье</li>
+        <li>еда</li>
+    </ol>
+    <hr>
 
-<table border="10">
-    <thead>
+    <h2>Опыт работы</h2>
+
+    <table border="10">
+        <thead>
         <tr>
             <th>Компания</th>
             <th>должность</th>
             <th>проебаные годы</th>
         </tr>
-    </thead>
-    <tbody>
+        </thead>
+        <tbody>
         <tr>
             <td>Сервер</td>
             <td>Вонючий кладовщик</td>
@@ -57,33 +56,41 @@
             <td>Вонючий кладовщик</td>
             <td>2007-2022</td>
         </tr>
-    </tbody>
+        </tbody>
 
-</table>
-<br>
-<hr>
-<h2>IT KAMASUTRA</h2>
-<a href="IT-KAMASUTRA.html" target="_blank">IT KAMASUTRA</a>
-<br>
-<hr>
-<h2>Связаться со мной:</h2>
-<br>
-<form action="">
-    <label for="name">Не</label>
-    <input placeholder="связывайтесь со мной..." type="text" id="name">
-    <label for="podumoi">Astanavis</label>
-    <input placeholder="Подумой" type="text" id="podumoi">
+    </table>
     <br>
-    <label for="text"> Высрать:</label>
+    <hr>
+    <h2>IT KAMASUTRA</h2>
+    <a href="IT-KAMASUTRA.html" target="_blank">IT KAMASUTRA</a>
     <br>
-    <textarea  id="text" cols="30" rows="5"></textarea>
-
+    <hr>
+    <h2>Связаться со мной:</h2>
     <br>
-    <input type="submit" Value="Всё таки связаться">
-    <br>
+    <form action="">
+        <label for="name">Не</label>
+        <input placeholder="связывайтесь со мной..." type="text" id="name">
+        <label for="podumoi">Astanavis</label>
+        <input placeholder="Подумой" type="text" id="podumoi">
+        <br>
+        <label for="text"> Высрать:</label>
+        <br>
+        <textarea id="text" cols="30" rows="5"></textarea>
 
-</form>
+        <br>
+        <input type="submit" Value="Всё таки связаться">
+        <br>
 
+    </form>
 
+    <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div style ='margin-bottom: 500px; ;'></div>
+</div>
 </body>
 </html>
